@@ -1,19 +1,22 @@
 public class Doctor {
 
-    private final String LastName;
-    private String Specilization;
+    private final String lastName;
+    private String specialization;
 
-    public Doctor(String LastName, String Specilization) {
-        this.LastName = LastName;
-        this.Specilization = Specilization;
+    public Doctor(String lastName, String specialization) {
+        this.lastName = lastName;
+        this.specialization = specialization;
     }
 
     public String getLastName() {
-        return LastName;
+        return lastName;
     }
 
-    public void setSpecilization(String Specilization) {
-        this.Specilization = Specilization;
+    public String getSpecialization() {
+        return specialization;
     }
 
+    public void setSpecialization(String specialization) {
+        this.specialization = specialization;
+    }
 }
